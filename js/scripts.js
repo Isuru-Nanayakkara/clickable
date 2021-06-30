@@ -14,6 +14,11 @@ function httpGet(url) {
 function getInputValue() {
     var value = document.getElementById("url").value
     var html = httpGet(value)
-    console.log(html)
-    alert("👍🏻");
+    getBio(html)
+}
+
+function getBio(html) {
+    var htmlDoc = (new DOMParser).parseFromString(html, "text/html");
+    var bio = htmlDoc.querySelector('meta[name="description"]').content
+    console.log(bio)
 }
