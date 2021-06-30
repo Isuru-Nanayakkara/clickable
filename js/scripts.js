@@ -19,6 +19,20 @@ function getInputValue() {
 
 function getBio(html) {
     var htmlDoc = (new DOMParser).parseFromString(html, "text/html");
-    var bio = htmlDoc.querySelector('meta[name="description"]').content
-    console.log(bio)
+    var bio = htmlDoc.head.querySelector('meta[name="description"]').content
+    parseBio(bio)
+}
+
+function parseBio(text) {
+    var result = anchorme({
+        input: text,
+        // use some options
+        options: {
+          attributes: {
+            target: "_blank"
+          }
+        }
+      });
+
+    document.getElementById("output").innerHTML = result
 }
