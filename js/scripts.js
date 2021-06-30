@@ -26,7 +26,6 @@ function getBio(html) {
 function parseBio(text) {
     var result = anchorme({
         input: text,
-        // use some options
         options: {
           attributes: {
             target: "_blank"
