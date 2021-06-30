@@ -28,3 +28,7 @@ h1 {
 #output {
     width: 400px;
 }
+
+.btn-primary {
+    background-color: #5577A8;
+}
