@@ -8,27 +8,26 @@ h1 {
     text-align: center;
 }
 
-#container {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
+@media screen {
+    .container {
+        max-width: 400px;
+    }
 }
 
 #url {
-    width: 400px;
+    width: 100%;
     margin-top: 5px;
 }
 
 #button {
-    width: 400px;
+    width: 100%;
 }
 
 #output {
-    width: 400px;
+    width: 100%;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
     background-color: #5577A8;
+    border-color: #5577A8;
 }
