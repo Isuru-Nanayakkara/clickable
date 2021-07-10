@@ -8,3 +8,10 @@ But those links are not clickable.
 
 Here's an easy [solution](https://isuru-nanayakkara.github.io/clickable/) for this first world problem.
 
+<hr>
+
+##### Things I learned
+
+- Basic usage of npm
+- [tailwind CSS](https://tailwindcss.com)
+- [anchrome.js](https://alexcorvi.github.io/anchorme.js/)
