@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+
+    <title>clickable</title>
+</head>
+
+<body class="bg-eggshell">
+    <div class="container max-w-xl flex flex-col items-center justify-center mx-auto px-4 mb-5">
+        <div class="w-full flex flex-col items-center justify-center pb-20">
+            <div class="w-full mt-8 flex flex-col items-center">
+                <div class="w-full flex flex-col items-center justify-center px-4 py-6 sm:p-8 text-base border rounded-2xl shadow bg-white font-nunito">
+                    <h1 class="mb-6 font-nunito text-4xl">clickable</h1>
+                    <header class="mb-2 text-sm md:text-base">Paste the link of a Clubhouse profile or a club below</header>
+                    <input type="text" name="url" id="url" class="w-full border border-gray-300 rounded h-10 px-2">
+                    <button id="button" class="w-full md:w-60 bg-bluechalk hover:bluechalk font-nunito font-semibold text-white text-xl py-2 px-4 mt-4 rounded-full cursor-pointer" type="submit" value="Submit" onclick="getInputValue();">Submit</button>
+                    <div id="output" class="mt-8 text-xs sm:text-base">
+                        <!-- Parsed output goes here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/anchorme.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "clickable",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:css": "tailwind build src/css/styles.css -o dist/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isuru-Nanayakkara/clickable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isuru-Nanayakkara/clickable/issues"
+  },
+  "homepage": "https://github.com/Isuru-Nanayakkara/clickable#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
