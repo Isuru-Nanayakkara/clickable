@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build:css": "tailwind build src/css/styles.css -o dist/css/styles.css"
+    "build:css": "tailwind build src/css/styles.css -o docs/css/styles.css"
   },
   "repository": {
     "type": "git",
