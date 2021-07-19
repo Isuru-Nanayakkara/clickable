@@ -8,7 +8,19 @@ But those links are not clickable.
 
 Here's an easy [solution](https://isuru-nanayakkara.github.io/clickable/) for this first world problem.
 
-<hr>
+### How to use
+
+##### For user profiles
+![alt text](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/user-1.png "User: step 1")
+![alt text](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/user-2.png "User: step 2")
+![alt text](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/user-3.png "User: step 3")
+
+##### For club profiles
+![alt text](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/club-1.png "Club: step 1")
+![alt text](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/club-2.png "Club: step 2")
+
+
+***
 
 ##### Things I learned
 
