@@ -8,6 +8,9 @@ But those links are not clickable.
 
 Here's an easy [solution](https://isuru-nanayakkara.github.io/clickable/) for this first world problem.
 
+![User Demo](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/user-demo.gif "User Demo")
+![Club Demo](https://github.com/Isuru-Nanayakkara/clickable/blob/main/screenshots/user-demo.gif "Club Demo")
+
 ### How to use
 
 ##### For user profiles
